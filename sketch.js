@@ -28,6 +28,7 @@ function setup() {
 
 	Redbox3Sprite=createSprite(300,650,100,10)
 	Redbox3sprite.shapeColor="red"
+	
 	helicopterSprite=createSprite(width/2, 200, 10,10);
 	helicopterSprite.addImage(helicopterIMG)
 	helicopterSprite.scale=0.6
