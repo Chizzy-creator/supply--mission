@@ -21,13 +21,13 @@ function setup() {
 	packageSprite.scale=0.2
 
 	Redbox1Sprite=createSprite(300,600,10,100)
-	Redbox1.shapeColor="red"
+	Redbox1sprite.shapeColor="red"
 
 	Redbox2Sprite=createSprite(300+width,600,10,100)
-	Redbox2.shapeColor="red"
+	Redbox2sprite.shapeColor="red"
 
 	Redbox3Sprite=createSprite(300,650,100,10)
-	Redbox3.shapeColor="red"
+	Redbox3sprite.shapeColor="red"
 	helicopterSprite=createSprite(width/2, 200, 10,10);
 	helicopterSprite.addImage(helicopterIMG)
 	helicopterSprite.scale=0.6
