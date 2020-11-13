@@ -1,5 +1,5 @@
 var helicopterIMG, helicopterSprite, packageSprite,packageIMG;
-var packageBody,ground,Redbox1Sprite,Redbox2Sprite,Redbox3Sprite
+var packageBody,ground,Redbox1,Redbox2,Redbox3
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -21,14 +21,14 @@ function setup() {
 	packageSprite.scale=0.2
 
 	Redbox1Sprite=createSprite(300,600,10,100)
-	Redbox1Sprite.shapeColor="red"
+	Redbox1Sprite.shapeColor=color(255,0,0);
 
 	Redbox2Sprite=createSprite(300+width,600,10,100)
-	Redbox2Sprite.shapeColor="red"
+	Redbox2Sprite.shapeColor=color(255,0,0);
 
 	Redbox3Sprite=createSprite(300,650,100,10)
-	Redbox3Sprite.shapeColor="red"
-	
+	Redbox3Sprite.shapeColor=color(255,0,0);
+
 	helicopterSprite=createSprite(width/2, 200, 10,10);
 	helicopterSprite.addImage(helicopterIMG)
 	helicopterSprite.scale=0.6
